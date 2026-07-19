@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Workshop Revival project index for repair, reuse, and repurposing projects.">
+  <title>Projects | Workshop Revival</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="../index.html" aria-label="Workshop Revival home"><img class="header-logo" src="../assets/images/brand/workshop-revival-logo.svg" alt=""><span>Workshop Revival</span></a>
+      <nav aria-label="Primary navigation"><ul class="nav-list"><li><a href="../index.html">Home</a></li><li><a href="index.html" aria-current="page">Projects</a></li><li><a href="../about.html">About</a></li></ul></nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <header class="page-header">
+      <div class="shell narrow">
+        <p class="eyebrow">Project index</p>
+        <h1>Built. Fixed. Tried.</h1>
+        <p class="tagline">We’ll add verified project notes here as the work is documented.</p>
+      </div>
+    </header>
+    <section class="projects-section section" aria-labelledby="project-list-heading">
+      <div class="shell">
+        <h2 class="visually-hidden" id="project-list-heading">All projects</h2>
+        <div class="filters" aria-label="Filter projects by category" data-project-filters>
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-button" type="button" data-filter="woodworking" aria-pressed="false">Woodworking</button>
+          <button class="filter-button" type="button" data-filter="metalworking" aria-pressed="false">Metalworking</button>
+          <button class="filter-button" type="button" data-filter="repair" aria-pressed="false">Repair</button>
+          <button class="filter-button" type="button" data-filter="upcycling" aria-pressed="false">Upcycling</button>
+          <button class="filter-button" type="button" data-filter="experiments" aria-pressed="false">Experiments</button>
+        </div>
+        <p class="filter-status" data-filter-status aria-live="polite"></p>
+        <div class="project-grid" data-project-grid>
+          <article class="project-card" data-category="upcycling experiments" data-project-host="instructables">
+            <img class="card-thumbnail" src="../assets/images/projects/grey-water-filter.jpg" alt="Life... From Laundry! DIY grey water filter" width="480" height="400">
+            <div class="card-body">
+              <h3>Life... From Laundry! | DIY Grey Water Filter</h3>
+              <div class="card-tags" aria-label="Categories"><span>Upcycling</span><span>Experiments</span></div>
+              <a class="card-link external-link" href="https://www.instructables.com/Life-From-Laundry-DIY-Grey-Water-Filter/">View full build on Instructables <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card" data-category="metalworking upcycling" data-project-host="instructables">
+            <img class="card-thumbnail" src="../assets/images/projects/weed-puller.png" alt="Disc brake rotor monster weed puller" width="345" height="288">
+            <div class="card-body">
+              <h3>Disc Brake Rotor Becomes a Monster Weed Puller</h3>
+              <div class="card-tags" aria-label="Categories"><span>Metalworking</span><span>Upcycling</span></div>
+              <a class="card-link external-link" href="https://www.instructables.com/Disc-Brake-Rotor-Becomes-a-Monster-Weed-Puller/">View full build on Instructables <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+        <p class="empty-message" data-empty-message hidden>No projects are posted in this category yet. The filter is ready for future additions.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><p><strong>Workshop Revival</strong><br><span>Where old stuff gets a new life and earns its keep.</span></p><p><a class="footer-link external-link" href="https://www.instructables.com/member/Workshop%20Revival/">Instructables profile <span aria-hidden="true">↗</span></a><br>Built to be useful. <span data-current-year></span></p></div></footer>
+</body>
+</html>

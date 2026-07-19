@@ -1,0 +1,9 @@
+:root{
+  /* brand fills */
+  --wr-rust:#A4602D; --wr-brown:#4A2E1A; --wr-olive:#7A933C; --wr-beige:#E6DDC9; --wr-paper:#F6F2E9;
+
+  /* text tokens (accessibility-first) */
+  --wr-text:#2F2F2F;        /* default on light */
+  --wr-on-dark:#FFFFFF;     /* default on dark backgrounds */
+  --wr-olive-text:#56682A;  /* darker olive for legible text on light */
+}
